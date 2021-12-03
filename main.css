@@ -1,0 +1,30 @@
+header {
+    position: fixed;
+    left:0;
+    right: 0;
+    top:0;
+    
+    z-index: 100;
+}
+
+header nav ul{
+    display: flex;
+    justify-content: center;
+}
+
+
+header nav ul li {
+    margin: 0 20px;
+    list-style:none;
+}
+
+
+header ul li a {
+    margin:-10px 20px 10px 20px;
+	text-decoration:none;
+	font-weight: 400;
+	font-size: 20px;
+	font-family: 'Noto Sans KR', sans-serif;
+
+	color: rgb(255, 255, 255);
+}
