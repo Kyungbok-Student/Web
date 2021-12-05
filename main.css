@@ -22,7 +22,7 @@ header nav ul li {
 header ul li a {
     margin:-10px 20px 10px 20px;
 	text-decoration:none;
-	font-weight: 400;
+	font-weight: 600;
 	font-size: 20px;
 	font-family: 'Noto Sans KR', sans-serif;
 
@@ -35,11 +35,12 @@ header ul li a {
 
 
 
+.section
 
-	.section{
-		text-align:center;
-	}
-
+{
+ text-align :center ;
+}
+	
 
 	
 	.fp-slidesNav.bottom{

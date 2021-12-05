@@ -10,7 +10,7 @@ $(function(){
 		navigationPosition :'right', 
 		sectionsColor : [ '#000', '#000' ,'#000' ,'#000' ,'#000' ] ,
 		keyboardScrolling : true ,
-		navigationTooltips: [ 'ff','dd','dd','dd','as'],
+		navigationTooltips: [ '메인','개발','소개','다운로드','연락처'],
 		loopTop: true,
 		loopBottom: true ,
 		slidesNavigation: true
