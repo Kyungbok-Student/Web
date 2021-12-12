@@ -6,13 +6,14 @@
 
 
 
-<title>기말 평가 과제</title>
+<title>Helian</title>
 
 
 
 <link rel="stylesheet" href="fullPage.css">
 <link rel="stylesheet" href="main.css">
 <link rel="stylesheet" href="font.css">
+<link rel="stylesheet" href="video.css">
 
 
 
@@ -41,8 +42,9 @@
             <li data-menuanchor="section1"><a href="#section1">메인</a></li>
             <li data-menuanchor="section2"><a href="#section2">개발</a></li>
             <li data-menuanchor="section3"><a href="#section3">소개</a></li>
-            <li data-menuanchor="section4"><a href="#section4">다운로드</a></li>
-            <li data-menuanchor="section5"><a href="#section5">연락처</a></li>       
+            <li data-menuanchor="section3"><a href="#section4">미디어 </a></li>
+            <li data-menuanchor="section4"><a href="#section5">다운로드</a></li>
+            <li data-menuanchor="section5"><a href="#section6">연락처</a></li>       
         </ul>
     </nav>
 </header>
@@ -51,25 +53,54 @@
     <main id="fullpage">
 
         <section class="section">
-            <div data-include-path="ma1.html"></div>
+            <div data-include-path="page1.html"></div>
         </section>
 
 
         <section class="section">
 
-            <div class="slide"><img src="images/white.svg" width="300" height="300"></div>
+        
 
-
-
-            <div class="slide"><img src="images/1.jpg" width="528" height="297">
+        <div class="slide"><img src="images/1.jpg" width="528" height="297">
             <div style="color: white; font-family: 'Noto Sans KR', sans-serif; font-weight: 800;
-            font-size: 50px;"><br>Visual Studio Code</div></div>
+            font-size: 50px;">Visual Studio Code</div>
+            
+            <div style="color: white; font-family: 'Noto Sans KR', sans-serif; font-weight: 700;
+            font-size: 25px;">웹 개발 환경으로 매우 적합한 비주얼 스튜디오 코드.</div>
+        
+        </div>
             
             
-            
-            <div class="slide"><img src="images/2.jpg" width="528" height="297">
+
+        <div class="slide"><img src="images/2.jpg" width="528" height="297">
             <div style="color: white; font-family: 'Noto Sans KR', sans-serif; font-weight: 800;
-            font-size: 50px;"><br>Adobe Illustrator</div></div>
+            font-size: 50px;">Adobe Illustrator</div>
+        
+            <div style="color: white; font-family: 'Noto Sans KR', sans-serif; font-weight: 700;
+            font-size: 25px;">로고의 수정 작업은 일러스트레이터와 학교 홈페이지의 자료를 이용합니다.</div>
+        
+        </div>
+
+
+
+        <div class="slide"><img src="images/3.jpg" width="528" height="297">
+            <div style="color: white; font-family: 'Noto Sans KR', sans-serif; font-weight: 800;
+            font-size: 50px;">Noto Sans Korean</div>
+        
+            <div style="color: white; font-family: 'Noto Sans KR', sans-serif; font-weight: 700;
+            font-size: 25px;">어디든 어울리는 Noto Sans 폰트를 애용합니다.</div>
+        
+        </div>
+
+        <div class="slide"><img src="images/4.jpg" width="528" height="297">
+            <div style="color: white; font-family: 'Noto Sans KR', sans-serif; font-weight: 800;
+            font-size: 50px;">fullPage.js</div>
+        
+            <div style="color: white; font-family: 'Noto Sans KR', sans-serif; font-weight: 700;
+            font-size: 25px;">fullPage.js 라이브러리의 도움을 받았습니다.</div>
+        
+        </div>
+
 
 
         </section>
@@ -80,20 +111,36 @@
 
 
         <section class="section">
-            <div data-include-path="ma1.html"></div>
+            <div data-include-path="page2.html"></div>
         </section>
 
-        <section class="section">
-            <div style="color: white; font-family: 'Noto Sans KR', sans-serif; font-weight: 900;
-            font-size: 30px;">ㅡ<br>다운로드<br>ㅡ</div>
+        <div class="section" id="section0">
+            <video id="myVideo" loop muted data-autoplay>
+                <source src="images/video.mp4" type="video/mp4">
+            </video>
+            <div class="layer" style="color: white; font-family: 'Noto Sans KR', sans-serif; font-weight: 900;
+            font-size: 40px;">
+                이 페이지는 배경 영상이 재생되고 있습니다 !<br>영상이 보이지 않으면 잠시 기다려주세요.
+            </div>
+            
+                
+                
+            </div>
 
-<div style="color: rgb(153, 153, 153); font-family: 'Noto Sans KR', sans-serif; font-weight: 700;
-            font-size: 20px;">
+        </div>
+
+
+        <section class="section">
+            <div style="color: white; font-family: 'Noto Sans KR', sans-serif; font-weight: 800;
+            font-size: 25px;">ㅡ<br>다운로드<br>ㅡ</div>
+
+<div style="color: rgb(153, 153, 153); font-family: 'Noto Sans KR', sans-serif; font-weight: 600;
+            font-size: 18px;">
              ※ &nbsp&nbsp kbu.kro.kr 도메인을 통해 접속을 부탁드립니다. </div>
 
             
-            <div style="color: white; font-family: 'Noto Sans KR', sans-serif; font-weight: 700;
-            font-size: 24px; ">
+            <div style="color: white; font-family: 'Noto Sans KR', sans-serif; font-weight: 600;
+            font-size: 20px; ">
             <br>이 사이트의 일부 요소는, <br>
             로컬의 html문서들을 스크립트의 XMLHttpRequest를 이용해 직접 불러와 <br> 
             index.html에서 보여주는 방식으로 작동합니다.<br>
@@ -118,7 +165,7 @@
 
         
         <a href="download/html.zip" download style="color: rgba(255, 255, 255, 0.582); font-family: 'Noto Sans KR', sans-serif; font-weight: 700;
-        font-size: 25px; ">사이트 소스 다운로드</a>
+        font-size: 22px; ">다운로드</a>
         
         </section>
 
